@@ -22,8 +22,10 @@
     <h1>Relembrando HTML</h1> <!--Comentário em HTML-->
     <p>Estou relembrando HTML.</p>
     <script>
-        var nome = prompt('Qual o seu nome'); //vai perguntar o nome
-        alert('É um grande prazer te conhecer ' + nome + '!'); //Concatenação
+        var n1 = Number(prompt('Digite um número:')); //O parseInt converte o retorno de string para inteiro.   --> O Number é a abreviação de parseInt e parseFloat
+        var n2 = Number(prompt('Digite outro número:'));
+        var soma = n1 + n2;
+        alert(`A soma entre ${n1} e ${n2} é igual a ${soma}!`)
     </script>
 </body>
 
