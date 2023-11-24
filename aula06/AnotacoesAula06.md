@@ -9,6 +9,31 @@ Para converter o tipo da variável, basta inserir:
 
     var n1 = Number(5)
 
+    Também podemos fazer o mesmo com strings:
+
+    var s = String(olá)
+
 Para concatenar uma variável de maneira ágil, podemos usar:
     `${}` -> Para informar uma variável dessa forma basta inserir a varável dentro do {} que está dentro do ``.
+
+<!-- Contar letras e colocar tudo em MAIÚSCULO e MINÚSCULO -->
+
+var s = 'JavaScript'
+
+s.length -> Vai contar as letras da palavra JavaScript -> O resultado é 10
+
+s.toUpperCase() -> Vai colocar tudo em maiúsculo -> o resultado é JAVASCRIPT
+
+s.toLowerCase() -> Vai colocar tudo em minúsculo -> o resultado é javascript
+
+<!-- Definir casas decimais de um número -->
+
+var n1 = 1545.5
+n1.toFixed(2)  -> Vai definir 2 casas decimais = 1545.50
+
+<!-- Coverter . em , -->
+n1.toFixed(2).replace('.',',')
+
+<!-- Definir um número com estilo de moeda brasileira -->
+var testeMoeda = n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) o resultado é R$1545,50
 
