@@ -1,3 +1,5 @@
+<!-- Manipulação de dados -->
+
 <!-- Variáveis, Conversão de Variável e Concatenações em JavaScript -->
 Para criar uma variável, basta inserir o tipo, nome e o sinal de = que siginfica recebe.
 
@@ -37,3 +39,5 @@ n1.toFixed(2).replace('.',',')
 <!-- Definir um número com estilo de moeda brasileira -->
 var testeMoeda = n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) o resultado é R$1545,50
 
+<!-- Para escrever no body do HTML -->
+Basta iserir: document.write('conteudo que vai aparecer na tela')
